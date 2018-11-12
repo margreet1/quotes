@@ -1,0 +1,86 @@
+blockquote{
+    border-left:none
+}
+
+.quote-header{
+  color:white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.quote-box1{
+
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    margin-top: 25px;
+    background-color: #4ADFCC;
+    color:white;
+
+    width: 325px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.quote-box2{
+
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    margin-top: 25px;
+    background-color: #6b76ff;
+    color:white;
+    width: 325px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+
+.quote-box3{
+
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    margin-top: 25px;
+    background-color: #951555;
+    color:white;
+    width: 325px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+
+
+
+.quote-box:hover {
+  opacity: 1;
+}
+
+.quotation-mark{
+
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+
+}
+
+.quote-text{
+
+    font-size: 19px;
+    margin-top: -65px;
+}
+
+.blog-post-author{
+  font-style: italic;
+}
