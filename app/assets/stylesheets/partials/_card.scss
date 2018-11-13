@@ -1,10 +1,19 @@
-blockquote{
+.blockquote {
     border-left:none;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     background-size: cover !important;
     background-position: center;
     position: relative;
 }
+
+// blockquote {
+//     padding: 10px 20px;
+//     // margin: 0 0 20px;
+//     font-size: 17.5px;
+//     border-left: 5px solid #eee;
+//     padding-bottom: 4em;
+// }
+
 
 .quote-header{
   color:white;
@@ -24,7 +33,6 @@ blockquote{
     margin-top: 25px;
     background-color: #4ADFCC;
     color:white;
-    width: 325px;
     box-shadow: 2px 2px 2px 2px #E0E0E0;
     opacity: 0.8;
     transition: 0.3s;
@@ -39,7 +47,6 @@ blockquote{
     margin-top: 25px;
     background-color: #6b76ff;
     color:white;
-    width: 325px;
     box-shadow: 2px 2px 2px 2px #E0E0E0;
     opacity: 0.8;
     transition: 0.3s;
@@ -55,7 +62,7 @@ blockquote{
     margin-top: 25px;
     background-color: #951555;
     color:white;
-    width: 325px;
+
     box-shadow: 2px 2px 2px 2px #E0E0E0;
     opacity: 0.8;
     transition: 0.3s;
@@ -95,3 +102,17 @@ blockquote{
 .blog-post-author{
   font-style: italic;
 }
+
+
+// @media only screen and (min-width: 320px) and (max-width:  480px) {
+
+//   .blockquote{
+//     // float: left;
+//     margin: auto;
+//     width: 100%;
+//     border-radius: 17px;
+//     padding-bottom: 4em;
+//   }
+// }
+
+
