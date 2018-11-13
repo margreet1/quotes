@@ -1,5 +1,9 @@
 blockquote{
-    border-left:none
+    border-left:none;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    background-size: cover !important;
+    background-position: center;
+    position: relative;
 }
 
 .quote-header{
@@ -60,7 +64,15 @@ blockquote{
 
 
 
-.quote-box:hover {
+.quote-box1:hover {
+  opacity: 1;
+}
+
+.quote-box2:hover {
+  opacity: 1;
+}
+
+.quote-box3:hover {
   opacity: 1;
 }
 
