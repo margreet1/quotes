@@ -1,15 +1,15 @@
 .masonry-container{
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-top: 10px;
   border: 1px solid rgba(0,0,0,0);
-  p{
+/*  p{
     text-align: center;
     padding: 4px;
     font-family: monospace;
     background: #222;
     color: #efefef;
-  }
+  }*/
 }
 .masonry{
   display: flex;
@@ -42,7 +42,7 @@
     background-size: cover !important;
     background-position: center;
     position: relative;
-    width: 325px;
+    width: flex;
 }
 
 blockquote {
@@ -59,6 +59,7 @@ blockquote {
   font-size: 25px;
   font-weight: bold;
 }
+
 .quote-badge{
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -101,13 +102,10 @@ blockquote {
     margin-top: 25px;
     background-color: #951555;
     color:white;
-
     box-shadow: 2px 2px 2px 2px #E0E0E0;
     opacity: 0.8;
     transition: 0.3s;
 }
-
-
 
 
 .quote-box1:hover {
