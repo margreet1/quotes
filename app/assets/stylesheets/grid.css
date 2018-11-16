@@ -3,14 +3,8 @@
   margin: auto;
   margin-top: 10px;
   border: 1px solid rgba(0,0,0,0);
-/*  p{
-    text-align: center;
-    padding: 4px;
-    font-family: monospace;
-    background: #222;
-    color: #efefef;
-  }*/
 }
+
 .masonry{
   display: flex;
   flex-direction: row;
@@ -19,6 +13,7 @@
   width: 100%;
   margin: auto;
 }
+
 .column{
   display: flex;
   flex-direction: column;
@@ -26,6 +21,7 @@
   align-content: stretch;
   flex-grow: 1;
 }
+
 .tile{
   margin: 4px;
   img{
@@ -36,23 +32,22 @@
 }
 
 .blockquote {
-    margin: 4px;
-    border-left:none;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    background-size: cover !important;
-    background-position: center;
-    position: relative;
-    width: flex;
+  margin: 4px;
+  border-left:none;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  position: relative;
+  width: flex;
 }
 
 blockquote {
-    padding: 10px 20px;
-    // margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee;
-    padding-bottom: 4em;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+  padding-bottom: 4em;
 }
-
 
 .quote-header{
   color:white;
@@ -61,52 +56,65 @@ blockquote {
 }
 
 .quote-badge{
-    background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.quote-box{
+  overflow: hidden;
+  margin-top: -50px;
+  padding-top: -100px;
+  border-radius: 10px;
+  margin-top: 25px;
+  background-color: #0b032d;
+  color:white;
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  opacity: 0.9;
+  transition: 0.3s;
 }
 
 .quote-box1{
-
-    overflow: hidden;
-    margin-top: -50px;
-    padding-top: -100px;
-    border-radius: 17px;
-    margin-top: 25px;
-    background-color: #4ADFCC;
-    color:white;
-    box-shadow: 2px 2px 2px 2px #E0E0E0;
-    opacity: 0.8;
-    transition: 0.3s;
+  overflow: hidden;
+  margin-top: -50px;
+  padding-top: -100px;
+  border-radius: 17px;
+  margin-top: 25px;
+  background-color: #0b032d;
+  color:white;
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
 .quote-box2{
-
-    overflow: hidden;
-    margin-top: -50px;
-    padding-top: -100px;
-    border-radius: 17px;
-    margin-top: 25px;
-    background-color: #6b76ff;
-    color:white;
-    box-shadow: 2px 2px 2px 2px #E0E0E0;
-    opacity: 0.8;
-    transition: 0.3s;
+  overflow: hidden;
+  margin-top: -50px;
+  padding-top: -100px;
+  border-radius: 17px;
+  margin-top: 25px;
+  background-color: #843b62;
+  color:white;
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
 
 .quote-box3{
-
-    overflow: hidden;
-    margin-top: -50px;
-    padding-top: -100px;
-    border-radius: 17px;
-    margin-top: 25px;
-    background-color: #951555;
-    color:white;
-    box-shadow: 2px 2px 2px 2px #E0E0E0;
-    opacity: 0.8;
-    transition: 0.3s;
+  overflow: hidden;
+  margin-top: -50px;
+  padding-top: -100px;
+  border-radius: 17px;
+  margin-top: 25px;
+  background-color: #f67e7d;
+  color:white;
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
+.quote-box:hover {
+  opacity: 1;
+}
 
 .quote-box1:hover {
   opacity: 1;
@@ -121,19 +129,16 @@ blockquote {
 }
 
 .quotation-mark{
-
-    margin-top: -10px;
-    font-weight: bold;
-    font-size:100px;
-    color:white;
-    font-family: "Times New Roman", Georgia, Serif;
-
+  margin-top: -10px;
+  font-weight: bold;
+  font-size:100px;
+  color:white;
+  font-family: "Times New Roman", Georgia, Serif;
 }
 
 .quote-text{
-
-    font-size: 19px;
-    margin-top: -65px;
+  font-size: 19px;
+  margin-top: -65px;
 }
 
 .blog-post-author{
