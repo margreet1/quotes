@@ -79,7 +79,7 @@ blockquote {
   overflow: hidden;
   margin-top: -50px;
   padding-top: -100px;
-  border-radius: 17px;
+  border-radius: 5px;
   margin-top: 25px;
   background-color: #0b032d;
   color:white;
@@ -92,7 +92,7 @@ blockquote {
   overflow: hidden;
   margin-top: -50px;
   padding-top: -100px;
-  border-radius: 17px;
+  border-radius: 5px;
   margin-top: 25px;
   background-color: #843b62;
   color:white;
@@ -106,7 +106,7 @@ blockquote {
   overflow: hidden;
   margin-top: -50px;
   padding-top: -100px;
-  border-radius: 17px;
+  border-radius: 5px;
   margin-top: 25px;
   background-color: #D14D4D;
   color:white;
