@@ -1,4 +1,4 @@
-GEM
+ You must use Bundler 2 or greater with this lockfile.GEM
   remote: https://rubygems.org/
   specs:
     actioncable (5.2.1)
