@@ -3,25 +3,13 @@
   <a href="/" class="navbar-brand">
     <%= image_tag "living-room-books-group.png", alt: "logo" %>
   </a>
+
+<%= form_tag method: :get do %>
+  <%= text_field_tag :search,
+    params[:search],
+    class: "form-control",
+    placeholder: "Search"
+  %>
+<% end %>
 </div>
 
-  <!-- Right Navigation -->
-  <div class="navbar-right hidden-xs hidden-sm">
-
-    <!-- Profile picture with dropdown list -->
-    <div class="navbar-item">
-      <div class="dropdown">
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-item hidden-md hidden-lg">
-    <div class="dropdown">
-      <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
-      </ul>
-    </div>
-  </div>
-</div>

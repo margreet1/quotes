@@ -1,7 +1,4 @@
-class WelcomeController < ApplicationController
-  def index
-  end
-
+class SubscribersController < ApplicationController
   def index
     @subscriber = Subscriber.new
   end
