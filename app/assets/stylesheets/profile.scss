@@ -73,6 +73,17 @@ p.b {
   grid-column: 3 / span 2;
 }
 
+// <div class="main">
+//   <div class="foo">
+//     <div class="description">
+//       <div class="stat">
+//       </div>
+//     </div>
+//   </div>
+//   <div class="stat">
+//   </div>
+// </div>
+
 /* White cards design */
 .main .description .stat {
   background: white;

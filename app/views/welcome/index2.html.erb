@@ -26,14 +26,16 @@
   Thanks for signing up!
 <% else %>
   <h1>Sign up for the weekly newsletter</h1>
-  <%= form_for @subscriber do |f| %>
-    <%= f.text_field :name, placeholder: "Name" %>
-    <%= f.email_field :email, placeholder: "Email" %>
+    <%= form_for @subscriber do |f| %>
+      <%= f.text_field :name, placeholder: "Name" %>
+      <%= f.email_field :email, placeholder: "Email" %>
     <%= f.submit %>
   <% end %>
 <% end %>
 
-<div class="grid">
+<!-- ".item.blog .content" -->
+
+  <div class="grid">
     <div class="item blog">
       <div class="content quote-box1">
           <p class="quotation-mark">“</p>
@@ -448,4 +450,3 @@ for(x=0;x<allItems.length;x++){
 </body>
 
 </html>
-

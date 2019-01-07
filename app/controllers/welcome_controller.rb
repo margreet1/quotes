@@ -6,6 +6,15 @@ class WelcomeController < ApplicationController
     @subscriber = Subscriber.new
   end
 
+  def show
+  end
+
+  def new
+  end
+
+  def edit
+  end
+
   def create
     @subscriber = Subscriber.new(subscriber_params)
     if @subscriber.save
@@ -14,6 +23,12 @@ class WelcomeController < ApplicationController
     else
       redirect_to rooth_path, notice: "Failed to save"
     end
+  end
+
+  def update
+  end
+
+  def destroy
   end
 
   private

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'quotes/index'
+  get 'quotes/import'
   get 'subscribers/index'
   get 'welcome/index'
   root to: "welcome#index"
