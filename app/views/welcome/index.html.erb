@@ -36,19 +36,7 @@
 <% end %>
 </div>
 
-<div>
-  <%= form_for quotes_index_path do |f| %>
-    <%= f.text_field :quote %>
-    <% end %>
-</div>
 
-<%= form_for :person do |f| %>
-  First name: <%= f.text_field :first_name %><br />
-  Last name : <%= f.text_field :last_name %><br />
-  Biography : <%= f.text_area :biography %><br />
-  Admin?    : <%= f.check_box :admin %><br />
-  <%= f.submit %>
-<% end %>
 
 <!-- ".item.blog .content" -->
 <%= flash[:notice] %>
@@ -59,7 +47,7 @@
 <div class="footer">
   <div>
   <div>
-    Kindle® is a registered trademark of Amazon.com Inc. Quotley is not endorsed by or sponsored by Amazon.com Inc.
+    Kindle® is a registered trademark of Amazon.com Inc. Quotley is part of Amazon's Affiliate Program.
   </div>
   <br>
   <div>Icon made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"          title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"          title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>

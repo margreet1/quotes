@@ -1,0 +1,9 @@
+<div>
+  <%= form_for @quote do |f| %>
+    Quote: <%= f.text_field :quote %> <br>
+    Link : <%= f.text_field :link %><br>
+    Author: <%= f.text_field :author %><br>
+    Title : <%= f.text_area :title %><br>
+  <%= f.submit %>
+  <% end %>
+</div>

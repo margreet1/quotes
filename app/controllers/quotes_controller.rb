@@ -28,18 +28,20 @@ class QuotesController < ApplicationController
   end
 
   def create
-    @link = Quote.find(params[:link_id])
-    @quote = Quote.find(params[:quote_id])
-    @author = Quote.new
-    @title = Quote.find[:title_id]
-    authorize @quote
+    @quote = Quote.new(quote_params)
     @quote.save
+    redirect_to @quote
   end
 
   def update
   end
 
   def destroy
+  end
+
+  private
+  def quote_params
+    params.require(:quote).permit(:quote, :link, :author, :title)
   end
 end
 
