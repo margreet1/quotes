@@ -14,10 +14,11 @@ class QuotesController < ApplicationController
   # end
 
   def index
-    render layout: "index_layout"
+    @quotes = Quote.all
   end
 
   def show
+    @quote = Quote.find(params[:id])
   end
 
   def new

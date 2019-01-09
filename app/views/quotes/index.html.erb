@@ -1,2 +1,15 @@
+
+
 <h1>Quotes#index</h1>
 <p>Find me in app/views/quotes/index.html.erb</p>
+
+
+<% @quotes.each do |quote| %>
+  <%= quote.id %>
+  <%= quote.quote %>
+  <%= quote.link %>
+  <%= quote.author %>
+  <%= quote.title %>
+<% end %>
+
+<!-- in views use @quotes instead of Quote - instance variable vs class -->

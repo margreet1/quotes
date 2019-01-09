@@ -1,14 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//code.jquery.com/jquery-1.11.1.min.js">
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+
 <!-- definition list -->
 <dl>
     <dt>Quote</dt>
-    <dd>A large feline inhabiting Bodmin Moor.</dd>
+    <dd><%= @quote.quote %></dd>
 
     <dt>Link</dt>
-    <dd>A sea serpent.</dd>
+    <dd><%= @quote.link %></dd>
 
     <dt>Author</dt>
-    <dd>A giant owl-like creature.</dd>
+    <dd><%= @quote.author %></dd>
 
     <dt>Title</dt>
-    <dd>A giant owl-like creature.</dd>
+    <dd><%= @quote.title %></dd>
 </dl>
+
+<%= Quote.all %>
+<br>
+<%= @quote.id %>
+
+<br>
+
+
+
+<!-- bad practice to use capital letter Quote in your views -->
