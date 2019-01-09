@@ -3,18 +3,8 @@ class QuotesController < ApplicationController
     @quote = Quote.all
   end
 
-# will create work?
-  # def create
-  #   @link = Quote.find(params[:link_id])
-  #   @quote = Quote.find(params[:quote_id])
-  #   @author = Quote.new
-  #   @title = Quote.find[:title_id]
-  #   authorize @quote
-  #   @quote.save
-  # end
-
   def index
-    @quotes = Quote.all
+    @quotes = Quote.where("quote LIKE ?", "%#{params[:quote]}%")
   end
 
   def show
