@@ -1,0 +1,16 @@
+<div class="item blog">
+  <%= link_to(quote.link, class: "quote-link", target: "_blank") do %>
+    <div class="content quote-box quote-box<%= [1, 2, 3].sample %>">
+      <p class="quotation-mark">“</p>
+      <p class="quote-text">
+        <%= quote.quote %>
+      </p>
+      <hr>
+      <div class="blog-post-actions">
+        <p class="blog-post-author pull-right">
+        <%= quote.author %> <br> ~ <%= quote.title %>
+        </p>
+      </div>
+    </div>
+  <% end %>
+</div>

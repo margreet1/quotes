@@ -1,14 +1,11 @@
 class QuotesController < ApplicationController
   def index
     @quote = Quote.all
-  end
-
-  def index
     @quotes = Quote.where("quote LIKE ?", "%#{params[:quote]}%")
   end
 
   def show
-    @quote = Quote.find(params[:id])
+    @quotes = Quote.find(params[:id])
   end
 
   def new

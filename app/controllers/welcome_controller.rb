@@ -4,6 +4,7 @@ class WelcomeController < ApplicationController
 
   def index
     @subscriber = Subscriber.new
+    @quotes = Quote.all
   end
 
   def show

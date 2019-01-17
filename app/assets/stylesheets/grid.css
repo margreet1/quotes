@@ -76,43 +76,16 @@ blockquote {
 }
 
 .quote-box1{
-  overflow: hidden;
-  margin-top: -50px;
-  padding-top: -100px;
-  border-radius: 5px;
-  margin-top: 25px;
   background-color: #0b032d;
-  color:white;
-  box-shadow: 2px 2px 2px 2px #E0E0E0;
-  opacity: 0.8;
-  transition: 0.3s;
 }
 
 .quote-box2{
-  overflow: hidden;
-  margin-top: -50px;
-  padding-top: -100px;
-  border-radius: 5px;
-  margin-top: 25px;
   background-color: #843b62;
-  color:white;
-  box-shadow: 2px 2px 2px 2px #E0E0E0;
-  opacity: 0.8;
-  transition: 0.3s;
 }
 
 
 .quote-box3{
-  overflow: hidden;
-  margin-top: -50px;
-  padding-top: -100px;
-  border-radius: 5px;
-  margin-top: 25px;
   background-color: #D14D4D;
-  color:white;
-  box-shadow: 2px 2px 2px 2px #E0E0E0;
-  opacity: 0.8;
-  transition: 0.3s;
 }
 
 .quote-box:hover {
