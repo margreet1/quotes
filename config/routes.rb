@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users, only: [:session]
   get 'quotes/import'
   get 'subscribers/index'
   get 'welcome/index'
