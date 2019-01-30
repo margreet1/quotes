@@ -1,0 +1,16 @@
+_button.scss
+
+.btn {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #913535;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  opacity: 1;
+  background: #913535;
+  text-decoration: none;
+  color: white;
+}
